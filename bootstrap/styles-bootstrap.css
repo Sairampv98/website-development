@@ -1,0 +1,60 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: lightgrey;
+    color: black;
+}
+
+
+#hero{
+    background-color: antiquewhite;
+    color: white;
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw1/Laptops_372_232._SY232_CB777666522_.jpg);
+    background-blend-mode:multiply;
+    background-size:cover;
+    
+}
+
+#hero p{
+    font-size:x-small;
+}
+
+
+main {
+    background-color: whitesmoke;
+}
+
+#sign-up {
+    text-align: center;
+}
+
+#sign-up button{
+    font-size: larger;
+    background-color: beige;
+    padding: 5px;
+}
+footer{
+    background-color: darkgrey;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    
+}
+footer ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+footer a{
+    color: white;
+}

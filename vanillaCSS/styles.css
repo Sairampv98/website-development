@@ -1,0 +1,148 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background-color: lightgrey;
+    color: black;
+}
+
+header{
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    padding: 15px 0 15px;
+}
+/*  padding-top: 15px;
+    padding-bottom: 15px;
+    
+    or
+    
+    padding: 15px 0 15px;*/
+
+#logos{
+    margin: 0 0 10px;
+}
+
+header nav {
+    background-color: grey;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 5px;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+header nav ul li a:hover{
+    color: yellow;
+    text-decoration:underline;
+    border-style:double;
+    border-color: white;
+}
+#hero{
+    background-color: antiquewhite;
+    color: white;
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img25/nov/bau/ain/gw1/Laptops_372_232._SY232_CB777666522_.jpg);
+    background-blend-mode:multiply;
+    background-size:cover;
+    
+}
+
+#hero p{
+    font-size:x-small;
+}
+
+#hero button{
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#hero button:hover{
+    background-color: white;
+    font-weight: bold;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+#featured-product{
+    background-color: aqua;
+}
+
+.discounted-products{
+    font-size:0.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+.discounted-products p{
+    font-size: 1.5rem;
+}
+
+.discounted-products h3{
+    color: red;
+}
+.discounted-products button{
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.discounted-products button:hover{
+    background-color: white;
+    font-weight: bold;
+}
+
+#sign-up {
+    text-align: center;
+}
+
+#sign-up button{
+    font-size: larger;
+    background-color: beige;
+    padding: 5px;
+}
+footer{
+    background-color: darkgrey;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    
+}
+footer ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+footer a{
+    color: white;
+}
