@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--informs the browser that this is a html5 file-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Seller|MyWebsite</title>
+        <style>
+            header{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: rgb(245, 245, 155);
+                margin:  0;
+                padding: 20px;
+                text-align: center;
+            }
+            form{
+                background: rgb(199, 241, 252);
+                padding: 20px;
+                border: 2px solid #ff0000;
+                width: 70%;
+                margin: 0 auto;
+
+            }
+            footer{
+                background-color: aliceblue;
+                text-align: center;
+                input{
+                color: fieldtext;
+            }
+            }
+            main{
+                background-color: beige;
+            }
+            .list{
+                margin-right: 4%;
+                display:inline-block;
+
+                a {
+                color: #ffffff;;
+
+            }
+            }
+            
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div id="logos">
+                <h1>My Website</h1>
+            </div>
+            <h1 class="jumbotron text-center">Supplier Registration</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <select id="Category" 
+                        name="Category">
+                            <option value="elctronics">
+                                Electronics</option>
+                            <option value="fashion">
+                                Fashion</option>
+                            <option value="books">
+                                Books</option>
+                        </select></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href=#>Checkout</a></li>
+                    <li><a href="seller.html">Seller</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <div class="container mt-5">
+            <div class="row">
+                
+            <section>
+                <h2>Commission</h2>
+                <div>
+                   <table class = "table table-striped table-hover table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Plan Name</th>
+                            <th>Monthly Fee</th>
+                            <th>Commission %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Starter</td>
+                            <td>Free</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Pro Seller</td>
+                            <td>$99/mo</td>
+                            <td>5%</td>
+                        </tr>
+                        <tr>
+                            <td>Ultra Seller</td>
+                            <td>$999/mo</td>
+                            <td>1%</td>
+                        </tr>
+                    </tbody>
+                   </table> 
+                </div>
+            </section>
+            </div>
+            </div>
+            <div class="col-md-8 offset-md-2">
+            <section>
+                <h2>Regstration Form</h2>
+                <form action="#" method="POST">
+                    <div class="hello">
+                        <label for="sname">Seller Name:</label>
+                        <input type="text" id="snmae"
+                         name="seller_name" 
+                         placeholder="e.g. Your Company Name" required >
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="email">Seller Email:</label>
+                        <input type="email" id="email"
+                         name="seller_email" 
+                         placeholder="e.g. Your@company.com" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pass">Seller Password:</label>
+                        <input type="password" id="pass"
+                         name="seller_password" required>
+                    </div class="mb-3">
+                    <br>
+                    <div>
+                        <label for="Category">Main Category</label>
+                        <select id="Category" 
+                        name="Category">
+                            <option value="elctronics">
+                                Electronics</option>
+                            <option value="fashion">
+                                Fashion</option>
+                            <option value="books">
+                                Books</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <p>Choose Plan</p>
+                        <input type="radio" id="p1" 
+                        name="plan" value="starter">
+                        <label for="p1">Starter</label>
+                        <input type="radio" id="p2" 
+                        name="plan" value="starter">
+                        <label for="p2">Pro</label>
+                        <input type="radio" id="p3" 
+                        name="plan" value="starter">
+                        <label for="p3">Ultra</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-lg w-100">Create Account
+
+                    </button>
+                </form>
+            </section>
+        </div>
+        
+        </main>
+        
+        <footer class="bg-dark text-white text-center py-3">
+            <p>India &copy My Website</p>
+            <hr>
+            <ul>
+                <li class="list"><a href="#Privacy" >Privacy</a></li>
+                <li class="list"><a href="#terms">Terms</a></li>
+                <li class="list"><a href="#settings">Settings</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
+
