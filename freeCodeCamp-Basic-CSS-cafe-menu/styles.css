@@ -1,0 +1,14 @@
+body {
+  /*background-color: burlywood;*/
+}
+
+h1, h2, p {
+  text-align: center;
+}
+/*This is a example of a comment in a style sheet*/
+#menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right:auto;  
+}

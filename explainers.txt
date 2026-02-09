@@ -1,0 +1,32 @@
+section:
+used to describe a part of the body
+articles in a newspaper
+
+table:
+used to create a table similiar to
+excel or spreadsheet
+
+thead:
+used to define the head of the table
+
+tbody:
+used to define the body of the table
+
+tr:
+creates new rows
+
+th:
+writes the content of a cell in a
+table with bold text by default
+
+td:
+writes the content of a cell in a
+table with normal text by default
+
+
+        <!--margin: first second third fourth
+        first: top
+        second: right
+        third: bottom
+        fourth: left
+        -->
